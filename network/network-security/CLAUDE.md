@@ -1,29 +1,30 @@
-# Project: Cisco ASA Firewall Configuration
+# Project: Cisco Firepower Management Center (FMC)
 
 ## 1. Context
-- **Purpose**: Secure network perimeters using Cisco ASA firewalls.
-- **Focus**: Stateful inspection, NAT, VPN, access control, and threat prevention.
+- **Purpose**: Centralized management of Cisco Firepower Threat Defense (FTD) devices.
+- **Focus**: Policy creation, threat detection, device management, and reporting.
 
 ## 2. Core Commands
-- **Configuration**: `configure terminal`, `access-list ...`, `nat ...`, `crypto ipsec ...`.
-- **Verification**: `show run http`, `show xlate`, `show crypto ipsec sa`, `show threat-detection statistics`.
-- **Monitoring**: `show log`, `show conn`.
+- **FMC API**: Use `nfv-tools` or direct REST API calls for automation.
+- **Policy Management**: `configure access-policy`, `configure intrusion-policy`.
+- **Device Management**: `device-group`, `add device`.
+- **Monitoring**: `show security intelligence`, `show intrusion event details`.
 
-## 3. ASA Firewall Standards
-- **Policy Design**: Implement rules with least privilege; deny by default.
-- **NAT**: Use object NAT for clarity and maintainability.
-- **VPN**: Utilize strong encryption (AES-GCM) and authentication (IKEv2).
-- **Threat Defense**: Enable and tune IPS/IDS policies.
+## 3. FMC Best Practices
+- **Policy Design**: Implement access rules based on least privilege; use security intelligence feeds.
+- **Intrusion Prevention**: Tune IPS policies for network-specific threats; monitor intrusion events.
+- **AMP/URL Filtering**: Configure and regularly update AMP and URL filtering policies.
+- **Updates**: Keep FMC and FTD software updated with the latest security patches.
 
 ## 4. Workflows
-- **Discovery**: Review existing ASA policy and network topology.
-- **Implementation**: Test configuration changes in a lab before production.
-- **Verification**: Validate policy effectiveness and monitor for threats.
+- **Discovery**: Review existing security policies and device configurations.
+- **Policy Tuning**: Regularly analyze security events to refine policies.
+- **Reporting**: Generate regular reports on threat activity and network security posture.
 
 ## 5. Anti-Patterns
-- NO any/permit any rules in critical security zones.
-- NO use of weak encryption or authentication for VPNs.
-- NO un-monitored firewall logs.
+- NO broad or overly permissive security policies.
+- NO neglecting regular policy tuning or threat analysis.
+- NO unpatched FMC or FTD devices.
 
 ## 6. Logs & Git
 - **Conversations**: Mandatory record of all interactions in `CONVERSATIONS.log`.
