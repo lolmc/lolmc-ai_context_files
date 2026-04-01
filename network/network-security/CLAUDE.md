@@ -1,29 +1,29 @@
-# Project: Cisco Wireless Security Best Practices
+# Project: Cisco Firepower Threat Defense (FTD) Configuration
 
 ## 1. Context
-- **Purpose**: Secure Cisco wireless networks and services.
-- **Focus**: WPA3-Enterprise, 802.1X, guest access, rogue AP detection.
+- **Purpose**: Configure and manage individual Cisco Firepower Threat Defense (FTD) devices.
+- **Focus**: Firewall policies, NAT, VPN, IPS, AMP, and URL filtering directly on FTD.
 
 ## 2. Core Commands
-- **WLC Config**: `configure wireless controller`, `security wpa akg ...`, `security dot1x ...`.
-- **ISE Integration**: `radius server ...` (pointing to ISE), `network access policy ...`.
-- **Verification**: `show wlan id <id>`, `show ap auth-list`, `show wireless client`.
+- **CLI**: `configure terminal`, `access-list ...`, `nat ...`, `crypto ipsec ...`, `policy-map type inspect dns ...`.
+- **Verification**: `show run access-list`, `show conn`, `show crypto ipsec sa`, `show policy-map type inspect dns`.
+- **Troubleshooting**: `packet-tracer ...`, `capture-data ...`.
 
-## 3. Wireless Security Standards
-- **Authentication**: Mandate WPA3-Enterprise with EAP-TLS or PEAP.
-- **Guest Network**: Isolate guest traffic; use captive portals and bandwidth throttling.
-- **Segmentation**: Use VLANs and policies to separate corporate, guest, and IoT traffic.
-- **Rogue APs**: Enable detection and mitigation features on WLCs and ISE.
+## 3. FTD Device Standards
+- **Policy Design**: Implement rules based on least privilege; deny by default.
+- **NAT**: Use interface NAT or twice NAT as appropriate for the topology.
+- **VPN**: Utilize strong encryption (AES-GCM) and authentication (IKEv2) for tunnels.
+- **Threat Defense**: Configure and tune IPS/AMP for network-specific threats.
 
 ## 4. Workflows
-- **Discovery**: Review current wireless SSIDs and security configurations.
-- **Policy Implementation**: Configure WLCs and ISE for secure authentication.
-- **Validation**: Test client connectivity and security posture.
+- **Discovery**: Review existing FTD configurations and network requirements.
+- **Implementation**: Test configurations in a lab environment before deployment.
+- **Verification**: Validate policy effectiveness and monitor threat detection logs.
 
 ## 5. Anti-Patterns
-- NO WPA2-PSK for corporate networks.
-- NO open guest SSIDs without captive portals.
-- NO unmonitored rogue AP alerts.
+- NO overly permissive access rules.
+- NO weak encryption for VPNs.
+- NO unmonitored threat logs or alerts.
 
 ## 6. Logs & Git
 - **Conversations**: Mandatory record of all interactions in `CONVERSATIONS.log`.
