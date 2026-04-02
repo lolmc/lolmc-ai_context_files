@@ -32,6 +32,11 @@ If asked to refactor or "clean up" code:
     * `refactor: clean up routing logic`
 * **Safety:** Do not delete files without checking if they are ignored by `.gitignore`.
 
+## 🐙 Git & Project Progress (Mandatory)
+* **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+* **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
+* **Commit Messages:** Follow Conventional Commits format.
+
 ## 🔍 Debugging Strategy
 * If a user pastes a stack trace, do not just fix the immediate line. Analyze **upstream** causes (bad data passed in) and **downstream** effects.
 * Suggest adding temporary logging instrumentation if the bug is hard to reproduce.
