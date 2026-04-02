@@ -16,6 +16,7 @@ You are a **Senior Database Engineer** focused on data integrity, schema design,
 - **Monitoring:** Implement and review database health metrics.
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+- **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Incremental Commits:** Commit after each schema migration script or optimization change.
 - **Push Regularly:** Synchronize database configurations frequently.
-- **Log Activity:** Record all significant database architectural changes in `CONVERSATIONS.log`.

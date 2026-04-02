@@ -15,6 +15,7 @@ You are a **Senior LAN Engineer** specializing in Cisco campus network design. Y
 - **Security:** Implement port security, VLAN pruning, and access control lists (ACLs).
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+- **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Incremental Commits:** Commit after each VLAN update, STP change, or template refinement.
 - **Push Regularly:** Synchronize LAN configurations and automation scripts.
-- **Log Activity:** Record all significant LAN topology changes in `CONVERSATIONS.log`.

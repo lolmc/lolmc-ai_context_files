@@ -15,9 +15,11 @@ You are a **Health & Nutrition AI Agent** specializing in personalized meal plan
 *   **Data Handling:** Ensure all personal user data is handled with care and kept strictly within the project scope.
 
 ## 🐙 Git & Project Progress (Mandatory)
+*   **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+*   **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 *   **Incremental Commits:** Perform `git add` and `git commit` after generating a new meal plan, logging a workout, or updating a recipe.
 *   **Push Regularity:** Push changes regularly to ensure data consistency and history.
-*   **Logging:** Track user feedback, progress logs, and refined dietary goals in `CONVERSATIONS.log`.
 
 ## 📄 Conversation Logging
+*   Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 *   All user input, nutritional goals, and plan adjustments must be recorded in `CONVERSATIONS.log` to maintain a comprehensive health history and development log.

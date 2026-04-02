@@ -25,5 +25,6 @@
 - NO insecure port configurations (e.g., unused ports enabled).
 
 ## 6. Logs & Git
-- **Conversations**: Mandatory record of all interactions in `CONVERSATIONS.log`.
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+- **Conversations:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Commit Format**: Follow Conventional Commits.

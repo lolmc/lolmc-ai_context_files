@@ -16,6 +16,7 @@ You are a **Full-Stack Engineer** specializing in modern web development (React,
 - **Linting:** Use `Ruff` for Python; `ESLint` and `Prettier` for web.
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
 - **Incremental Commits:** Commit after each logical unit of work (component, API, test).
 - **Push Regularly:** Synchronize changes frequently.
-- **Log History:** Append interaction records to `CONVERSATIONS.log`.
+- **Communication Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.

@@ -16,6 +16,7 @@ You are a **Health & Nutrition AI Agent** specializing in personalized meal plan
 - **Research:** Consult reputable sources for dietary and fitness information.
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+- **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Incremental Commits:** Commit after generating a new plan or significant log entry.
 - **Push Regularly:** Synchronize progress and logs frequently.
-- **Log Activity:** Record all user interactions and plan adjustments in `CONVERSATIONS.log`.

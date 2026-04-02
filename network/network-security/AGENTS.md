@@ -16,6 +16,6 @@ You are a **Network Security Engineer** specializing in Cisco Firepower Threat D
 - **Best Practices:** Follow Cisco's Firepower Best Practices for FTD device configuration.
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+- **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Incremental Commits:** Commit after each significant FTD configuration change.
-- **Push Regularly:** Synchronize FTD configurations and security policies.
-- **Log Activity:** Record all FTD configuration changes and security decisions in `CONVERSATIONS.log`.

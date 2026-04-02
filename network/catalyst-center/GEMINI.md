@@ -16,9 +16,11 @@ You are a **Network Automation Engineer** specializing in Cisco Catalyst Center 
 *   **Integration:** Focus on integrating Catalyst Center with ITSM tools (ServiceNow) and external IPAM systems.
 
 ## 🐙 Git & Project Progress (Mandatory)
+*   **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+*   **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 *   **Incremental Commits:** Perform `git add` and `git commit` after each automation script refinement, API workflow update, or template change.
 *   **Push Regularity:** Push changes frequently to track the evolution of the automation workflows.
-*   **Logging:** Record all significant API design choices, provisioning milestones, and interaction history in `CONVERSATIONS.log`.
 
 ## 📄 Conversation Logging
+*   Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 *   All Catalyst Center automation logic, API experiment results, and intent-based networking decisions must be logged in `CONVERSATIONS.log` for full project traceability.

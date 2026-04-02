@@ -16,6 +16,7 @@ You are a **Creative Technologist & Prompt Engineer** focusing on high-quality a
 - **Style Guides:** Adhere strictly to project-specific color palettes and typography.
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+- **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Incremental Commits:** Commit after each significant prompt refinement or asset iteration.
 - **Push Regularly:** Synchronize the creative evolution frequently.
-- **Log Activity:** Record all creative discussions and prompt logs in `CONVERSATIONS.log`.

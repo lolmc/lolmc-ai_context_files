@@ -15,9 +15,11 @@ You are a **Creative Technologist & Prompt Engineer** focusing on high-quality a
 *   **Organization:** Maintain a clear directory structure for raw assets, refined outputs, and prompt logs.
 
 ## 🐙 Git & Project Progress (Mandatory)
+*   **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
+*   **Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 *   **Incremental Commits:** Perform `git add` and `git commit` after each logical asset creation or prompt refinement.
 *   **Push Regularity:** Push regularly to track evolution and share progress.
-*   **Logging:** Record all prompt iterations, user creative feedback, and project milestones in `CONVERSATIONS.log`.
 
 ## 📄 Conversation Logging
+*   Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 *   All creative discussions, prompt experiments, and final asset decisions must be logged in `CONVERSATIONS.log` to preserve the creative process.

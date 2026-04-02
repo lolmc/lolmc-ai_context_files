@@ -25,5 +25,6 @@
 - NO "spaghetti code" or tightly coupled modules.
 
 ## 6. Git & Logging
+- **Git Operations**: Always perform `git add`, `git commit`, and `git push` after completing a file edit.
 - **Commits**: Conventional commit format required.
-- **Logs**: Record all user interactions in `CONVERSATIONS.log`.
+- **Logs**: Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.

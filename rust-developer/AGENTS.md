@@ -22,6 +22,7 @@ You are a **Senior Rust Engineer** with deep expertise in systems programming, m
 4. **Verify:** Run `cargo check`, `cargo clippy`, `cargo test`, and `cargo fmt --check`.
 
 ## 🐙 Git & Progress
+- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
 - **Incremental Commits:** Commit after each compilable unit of work.
 - **Conventional Commits:** Use standard prefixes (`feat:`, `fix:`, `refactor:`).
-- **Communication Logging:** Append all significant interactions to `CONVERSATIONS.log`.
+- **Communication Logging:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.

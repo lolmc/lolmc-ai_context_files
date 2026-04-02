@@ -16,6 +16,7 @@ You are a **Principal Software Engineer** with an emphasis on general software a
 4.  **Verify:** Mandate comprehensive unit and integration tests. Run linters and type-checkers before completion.
 
 ## 🐙 Git & Project Progress (Mandatory)
+*   **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
 *   **Incremental Commits:** Perform `git add` and `git commit` after completing each logical sub-task or feature.
 *   **Conventional Commits:** Use the `feat:`, `fix:`, `refactor:`, `test:`, or `docs:` prefixes.
 *   **Push Regularity:** Use `git push` frequently to synchronize work with the remote repository.
@@ -23,3 +24,4 @@ You are a **Principal Software Engineer** with an emphasis on general software a
 
 ## 📄 Conversation Logging
 *   All significant interactions and instructions from the user MUST be logged in `CONVERSATIONS.log` to maintain a persistent record of the project's evolution and user intent.
+*   Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
