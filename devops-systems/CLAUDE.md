@@ -1,7 +1,7 @@
 # Project: DevOps & Systems Infrastructure
 
 ## 1. Context
-- **Purpose**: Infrastructure as Code (IaC), CI/CD pipelines, and systems automation.
+- **Purpose**: Infrastructure as Code (IaC), and systems automation.
 - **Goal**: Ensure reliable, repeatable, and secure deployments.
 
 ## 2. Core Commands
@@ -13,7 +13,6 @@
 ## 3. Coding Standards (IaC & Shell)
 - **Shell**: Use `sh` or `bash` with strict error handling (`set -euo pipefail`).
 - **Docker**: No root users, multi-stage builds, minimal base images.
-- **CI/CD**: modular actions/templates for reusability.
 
 ## 4. Workflows
 - **Discovery**: Read Dockerfiles and CI/CD config files before modification.
