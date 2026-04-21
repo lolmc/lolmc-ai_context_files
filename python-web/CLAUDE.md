@@ -1,3 +1,20 @@
+# undefined
+
+**Summary**: One sentence describing this note.
+**Tags**: #topic1 #topic2
+**Created**: 2026-04-06T00:00:00+00:00
+**Last Updated**: 2026-04-06T00:00:00+00:00
+
+---
+
+## Content
+
+Write the main content here.
+
+## Related Notes
+
+- [[Note Title]]
+
 # Project: Python & Web Full-Stack
 
 ## 1. Context
@@ -29,4 +46,3 @@
 - **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
 - **Conversations:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
 - **Commit Format:** Follow Conventional Commits.
-
