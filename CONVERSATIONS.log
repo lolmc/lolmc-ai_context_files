@@ -9,3 +9,5 @@
 - **Action**: Verified all 38 context files across the project for mandatory Git and logging directives.
 - **Goal**: Confirm directives for incremental commits, frequent pushes after each file edit, and logging to `CONVERSATIONS.log` are present in all `GEMINI.md`, `CLAUDE.md`, and `AGENTS.md` files.
 - **Outcome**: Successfully verified and updated all files. Ensured consistent directives across the repository.
+User: remove the github and github actions from all files - i run a local Gitea server which just has git features for all of my development projects so having the github or other applications in the AGENTS.md/GEMINI.md/CLAUDE.md file is not required
+Action: Removed all GitHub, GitHub Actions, CI/CD, and external automation pipeline references from README.md and devops-systems/ directory to align with local Gitea-only setup.

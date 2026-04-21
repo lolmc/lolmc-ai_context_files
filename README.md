@@ -30,8 +30,8 @@ The project is organized into role-specific directories, each containing the pri
     -   `AGENT.md`: Defines the Full-Stack Engineer persona.
     -   `CLAUDE.md`: Details project context, commands, and standards for Python/Web.
 
--   **`/devops-systems/`:** For operational safety, shell scripting, Docker, and CI/CD.
-    -   `GEMINI.md`: Emphasizes IaC, CI/CD, and shell script safety.
+-   **`/devops-systems/`:** For operational safety, shell scripting, and Docker.
+    -   `GEMINI.md`: Emphasizes IaC and shell script safety.
     -   `AGENT.md`: Defines the DevOps & SRE persona.
     -   `CLAUDE.md`: Outlines infrastructure commands, standards, and workflows.
 

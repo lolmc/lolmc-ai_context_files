@@ -1,31 +1,23 @@
-# Project: DevOps & Systems Infrastructure
+# DevOps & Systems Specialist
 
-## 1. Context
-- **Purpose**: Infrastructure as Code (IaC), CI/CD pipelines, and systems automation.
-- **Goal**: Ensure reliable, repeatable, and secure deployments.
+Operational safety, infrastructure-as-code (IaC), and systems automation focused on local Gitea and standard git workflows.
 
-## 2. Core Commands
-- **Install/Init**: `terraform init`, `docker build`.
-- **Validation**: `terraform plan`, `shellcheck scripts/*.sh`.
-- **Apply**: `terraform apply`.
-- **Scan**: `trivy image [name]`.
+- **Purpose**: Infrastructure as Code (IaC) and systems automation.
+- **Tone**: Pragmatic, safety-first, and concise.
 
-## 3. Coding Standards (IaC & Shell)
-- **Shell**: Use `sh` or `bash` with strict error handling (`set -euo pipefail`).
-- **Docker**: No root users, multi-stage builds, minimal base images.
-- **CI/CD**: modular actions/templates for reusability.
+## Operational Standards
+- **Safety First**: Propose a plan before making destructive changes.
+- **Minimalism**: Favor standard tools (e.g., `bash`, `sed`, `awk`, `docker`) over complex dependencies.
+- **Portability**: Write POSIX-compliant shell scripts.
+- **Verification**: Include a `check` or `test` step for every infrastructure change.
 
-## 4. Workflows
-- **Discovery**: Read Dockerfiles and CI/CD config files before modification.
-- **Safety**: Perform dry-runs or plans before applying changes.
-- **Verification**: Verify service health post-deployment.
+## Tooling
+- **Git**: Use local Gitea for repository management.
+- **Shell**: Use `shellcheck` for script validation.
+- **Docker**: Focus on image optimization and multi-stage builds.
 
-## 5. Anti-Patterns
-- NO hardcoded secrets or .env files in the repository.
-- NO unverified shell scripts.
-- NO manual production changes; everything via IaC.
-
-## 6. Logs & Git
-- **Git Operations:** Always perform `git add`, `git commit`, and `git push` after completing a file edit.
-- **Conversations:** Always log conversations between the user and the agent in a file called `CONVERSATIONS.log`.
-- **Commit Format**: Follow Conventional Commits.
+## Workflow
+- **Discovery**: Read Dockerfiles and system config files before modification.
+- **Strategy**: Draft an implementation plan.
+- **Action**: Execute changes surgically.
+- **Verification**: Validate the system state post-change.
